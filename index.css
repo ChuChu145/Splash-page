@@ -12,20 +12,16 @@ body{
 
    /* Typography */
 
-   h1, .top-text
-   .beta-text{
-    text-shadow: 0 2px #FF2E38;
-   }
-
    h1{
     font-size: 2.5rem;
     font-weight: 400;
+    text-shadow: 0 2px #FF2E38;
     
    }
 
    h2{
     font-size: 1.5rem;
-    margin: 1em 0 0;
+    margin: 0;
    }
 
 
@@ -39,7 +35,6 @@ body{
    }
 
    .subheading{
-    color: #FF2E38;
     font-weight: 900;
     margin-bottom: 0.5em;
    }
@@ -94,8 +89,15 @@ body{
 
    /* main content */
 
+   .main-img{
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 1em;
+   }
+
    .main-content{
     align-items: center;
+    padding-top: 2.5em;
    }
 
    .main-content p,
@@ -143,6 +145,17 @@ body{
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #FF8FA3;
+}
+
+i{
+    color: #fff;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+i:hover,
+i:focus{
+    background-color:#70E000 ;
 }
 
 /* Media Queries */
