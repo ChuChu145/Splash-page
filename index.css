@@ -80,7 +80,7 @@ body{
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5), /* Black overlay with 50% opacity */
         rgba(0, 0, 0, 0.5)
-    ), url("public/images/cake_vibrant_bg_1.jpg");
+    ),url("public/images/cake_vibrant_bg_1.jpg");
     background-size: cover;
     background-position: center;
     padding-bottom: 1.5em;
